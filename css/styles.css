@@ -3960,9 +3960,11 @@ input[type="button"].btn--primary:focus {
  *
  * ------------------------------------------------------------------- */
 .s-portfolio {
-    background-color: var(--color-gray-1);
+       --color-border: var(--color-gray-16);
+    background-color: var(--color-gray-17);
     padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-5);
+    padding-bottom: var(--vspace-4);
+    color: rgba(255, 255, 255, 0.4);
 }
 
 .s-portfolio h3 {
@@ -4052,27 +4054,30 @@ input[type="button"].btn--primary:focus {
     transform: scale(1);
 }
 
-..folio-item__thumb {
-    width: 220px;
-    height: 220px;
+.folio-item__thumb {
+    background-color: #e0e0e0 ; /* soft light gray */
+    /* other styles you already have */
+    width: 100%;
+    aspect-ratio: 1 / 1;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 0;
 }
+
 
 .folio-item__thumb img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+    object-fit: cover; /* Makes sure the image fills the box without stretching */
     transition: transform 0.3s ease;
 }
 
 .folio-item:hover .folio-item__thumb img {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Subtle zoom effect on hover */
 }
+
 
 
 
