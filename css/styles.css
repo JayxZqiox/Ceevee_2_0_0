@@ -4065,6 +4065,12 @@ input[type="button"].btn--primary:focus {
     display: flex;
     justify-content: center;
 }
+.folio-item__thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
