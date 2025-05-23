@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay</title>
+    <style>
+	 body {
+            background-image: url('background.gif');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #justify {
+            text-align: center;
+            position: relative;
+            border: 2px solid black;
+            height: 550px;
+            width: 628px;
+            margin: 50px auto;
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        #justify img {
+            width: 625px;
+            height: 550px;
+            object-fit: cover; /* Make the image cover the entire container */
+            display: block;
+            margin: 0 auto;
+        }
+
+        .arrow {
+            cursor: pointer;
+            font-size: 24px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            text-decoration: none;
+            color: black;
+        }
+
+        .arrow img {
+            width: 24px;
+            height: auto;
+        }
+
+        #prev {
+            left: 10px;
+        }
+
+        #next {
+            right: 10px;
+        }
+
+        figure {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        figcaption {
+            font-style: italic;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="justify">
+        <figure>
+            <img id="slider-image" src="picture2.jpg" alt="ME">
+            <figcaption>Picture2</figcaption>
+        </figure>
+    </div>
+
+    <a href="pic1.html" class="arrow" id="prev"><img src="left.png" alt="Previous"></a>
+    <a href="pic3.html" class="arrow" id="next"><img src="right.png" alt="Next"></a>
+
+</body>
+</html>

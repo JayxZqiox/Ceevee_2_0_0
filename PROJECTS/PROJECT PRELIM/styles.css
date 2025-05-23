@@ -1,0 +1,299 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    border-radius: 50%; /* Apply a border-radius of 50% to make the image circular */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+
+.text-container {
+    flex: 0 0 50%; /* Adjust width as needed */
+}
+
+.Me {
+    background-image: url('error.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px; /* Adjust padding as needed */
+    color: white; /* Text color to contrast with the background image */
+}
+
+
+.Me h2 {
+    color: #3AAFA9; /* Highlight color for headings */
+    margin-bottom: 20px;
+}
+
+.Me p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.Me aside {
+    flex: 0 0 100%; /* Adjust width as needed */
+}
+
+.Me aside h2 {
+    color: #3AAFA9; /* Highlight color for headings */
+    margin-bottom: 15px;
+}
+
+.Me ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Me li {
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: #3AAFA9; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 500px; /* Limit content width */
+    margin: 0 auto; /* Center align content */
+
+}
+
+.header-content h1 {
+    font-size: 20px; /* Adjust the font size as needed */
+
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Responsive adjustments for smaller screens */
+    header h1 {
+        font-size: 1.5em; /* Decrease font size for smaller screens */
+    }
+}
+
+nav {
+    background-color: #0B0C10; /* Dark navigation background color */
+    padding: 15px;
+    border-bottom: 3px solid #fff; /* Light border */
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block; /* Display items horizontally */
+    margin: 0 10px; /* Add space between items */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+nav a:hover {
+    background-color: #3AAFA9; /* Change background color on hover */
+}
+#contact {
+    background-color: black; /* Dark background color */
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); /* Add shadow */
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    max-width: 1000px; /* Limit content width */
+
+}
+
+.contact-info h2 {
+    color: #3AAFA9; /* Highlight color for headings */
+    margin-bottom: 20px;
+}
+
+.contact-info ul {
+    list-style: none; /* Remove default list styles */
+}
+
+.contact-info li {
+    margin-bottom: 15px; /* Add spacing between contact items */
+}
+
+.contact-info li strong {
+    color: #3AAFA9; /* Highlight color for strong text */
+    margin-right: 5px; /* Add space between label and value */
+}
+
+.contact-info a {
+    color: #3AAFA9; /* Highlight color for links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.contact-info a:hover {
+    color: #BADFE7; /* Change color on hover */
+}
+#personal {
+    background-color: black; /* Dark background color */
+    color: white; /* Light text color */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); /* Add shadow */
+    margin-bottom: 40px;
+}
+
+#personal h2 {
+    color: #3AAFA9; /* Highlight color for headings */
+    margin-bottom: 20px;
+}
+
+#personal table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#personal td {
+    padding: 10px;
+    border-bottom: 1px solid #444; /* Dark border bottom for table cells */
+}
+
+#personal td:first-child {
+    font-weight: bold; /* Make labels bold */
+    color: #3AAFA9; /* Highlight color for labels */
+    width: 150px; /* Set width for consistent alignment */
+}
+
+#personal ul {
+    list-style-type: none; /* Remove default list styles */
+    padding-left: 20px; /* Add left padding for nested lists */
+}
+
+#personal ul li {
+    margin-bottom: 5px; /* Add space between list items */
+}
+
+#personal ul li:before {
+    content: "•"; /* Use bullet point as list item marker */
+    color: #3AAFA9; /* Highlight color for bullet points */
+    margin-right: 5px; /* Add space between bullet point and text */
+}
+#covers {
+    background-color: black; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 40px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); /* Add shadow */
+    margin-bottom: 40px;
+}
+
+#covers h2 {
+    color: #3AAFA9; /* Highlight color for headings */
+    margin-bottom: 20px;
+}
+
+.cover-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cover-item {
+    width: calc(50% - 20px); /* Set width for cover items */
+    margin-bottom: 20px; /* Add space between cover items */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.cover-item iframe,
+.cover-item video {
+    width: 100%; /* Set width for embedded videos */
+    height: 200px; /* Set height for embedded videos */
+    border: none; /* Remove borders */
+}
+
+figcaption {
+    color: #aaa; /* Caption color */
+    margin-top: 10px; /* Add space between content and caption */
+    text-align: center; /* Center-align captions */
+}
+#picture {
+    background-color: #f0f0f0; /* Fallback color in case the image doesn't load */
+    color: black; /* Text color to contrast with the dark background */
+    padding: 20px; /* Adjust padding as needed */
+
+	text-align: center; /* Center align the content */
+}
+#picture a {
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold */
+}
+#likes {
+    background-color: #f0f0f0; /* Light gray background color */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center align the content */
+    margin-top: 30px; /* Add some space from the previous section */
+}
+
+#likes a {
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold */
+}
+
+#likes a:hover {
+    color: #555; /* Link color on hover */
+}
+
+#likes p {
+    margin-top: 10px; /* Add some space between the paragraph and the link */
+}
+
+dl {
+    margin-top: 20px; /* Add some space above the dl element */
+}
+
+dt {
+    font-weight: bold; /* Make the dt elements bold */
+    margin-top: 10px; /* Add some space above each dt element */
+}
+
+dd {
+    margin-left: 0; /* Reset default margin */
+    margin-bottom: 10px; /* Add some space below each dd element */
+}
+footer {
+    background-color: #3AAFA9;
+    color: white; /* Text color */
+    text-align: center; /* Center align the content */
+    padding: 20px 0; /* Add padding to the top and bottom */
+}
+
+footer small {
+    font-size: 80%; /* Reduce the font size of the small text */
+}
+
+footer strong {
+    font-size: 120%; /* Increase the font size of the strong text */
+}
+
