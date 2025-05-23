@@ -4057,31 +4057,16 @@ input[type="button"].btn--primary:focus {
     transform: scale(1.05);
 }
 .folio-item__thumb img {
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 100px; /* <-- Make it circular */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;           /* Ensures the image stays a square */
+    border-radius: 50%;            /* Makes the image a circle */
+    object-fit: cover;             /* Ensures the image covers the circular container */
+    display: block;
+    border: 4px solid white;       /* Optional: makes it pop */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Optional shadow */
+    transition: transform 0.5s;
 }
-
-.folio-item {
-    display: flex;
-    justify-content: center;
-}
-.folio-item__thumb {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.folio-item__thumb img {
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid white; /* optional */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* optional */
-}
-
-
 
 
 
