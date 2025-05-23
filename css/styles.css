@@ -4056,6 +4056,17 @@ input[type="button"].btn--primary:focus {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
+.folio-item__thumb img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.folio-item {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 /* ------------------------------------------------------------------- 
  * ## modal popup
