@@ -4058,7 +4058,7 @@ input[type="button"].btn--primary:focus {
     width: 100%;
     height: auto;
     aspect-ratio: 1 / 1;           /* Ensures the image stays a square */
-    border-radius: 50%;            /* Makes the image a circle */
+    border-radius: 20%;            /* Makes the image a circle */
     object-fit: cover;             /* Ensures the image covers the circular container */
     display: block;
     border: 4px solid black;       /* Optional: makes it pop */
@@ -4066,8 +4066,8 @@ input[type="button"].btn--primary:focus {
     transition: transform 0.5s;
 }
 .folio-item__thumb {
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
