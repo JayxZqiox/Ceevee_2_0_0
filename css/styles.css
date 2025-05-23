@@ -3969,6 +3969,7 @@ input[type="button"].btn--primary:focus {
 
 .s-portfolio h3 {
     margin-top: 0;
+	color: white;
 }
 
 .s-portfolio__header {
@@ -4055,8 +4056,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .folio-item__thumb {
-    background-color: #f0f0f0 ; /* soft light gray */
-    /* other styles you already have */
+background-color: var(--color-gray-1);    /* other styles you already have */
     width: 100%;
     aspect-ratio: 1 / 1;
     display: flex;
@@ -4088,7 +4088,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .modal-popup {
     max-width: 680px;
-    background-color: white;
+    background-color: var(--color-gray-1);
     font-size: calc(var(--text-size) * 0.9444);
     line-height: 1.647;
     overflow-y: auto;
