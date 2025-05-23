@@ -4060,7 +4060,9 @@ input[type="button"].btn--primary:focus {
     width: 350px;
     height: 350px;
     object-fit: cover;
+    border-radius: 50%; /* <-- Make it circular */
 }
+
 .folio-item {
     display: flex;
     justify-content: center;
