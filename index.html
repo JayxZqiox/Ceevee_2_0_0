@@ -29,14 +29,18 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 
-</head>
 <style>
-  /* Make numbers smaller inside elements with class "num" */
-  .num {
-    font-size: 0.75rem;  /* adjust size as you want */
-    color: #555;         /* optional: a softer color */
-  }
-</style>
+    /* Resize the folio-item thumbnail images */
+    .folio-item__thumb img {
+      width: 200px;       /* desired width */
+      height: 200px;      /* desired height */
+      object-fit: cover;  /* crop to fill without distortion */
+      display: block;     /* removes bottom spacing */
+    }
+  </style>
+</head>
+
+</head>
 
 <body id="top" class="ss-preload">
 
