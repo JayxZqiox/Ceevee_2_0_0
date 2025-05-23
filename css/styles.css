@@ -4057,8 +4057,8 @@ input[type="button"].btn--primary:focus {
     transform: scale(1.05);
 }
 .folio-item__thumb img {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
 }
 .folio-item {
