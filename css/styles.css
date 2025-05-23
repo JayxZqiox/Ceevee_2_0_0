@@ -4055,8 +4055,6 @@ input[type="button"].btn--primary:focus {
 .folio-item:hover .folio-item__thumb img {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
-}
-.folio-item__thumb img {
     width: 100%;
     height: auto;
     aspect-ratio: 1 / 1;           /* Ensures the image stays a square */
@@ -4067,6 +4065,16 @@ input[type="button"].btn--primary:focus {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Optional shadow */
     transition: transform 0.5s;
 }
+.folio-item__thumb {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%; /* Optional, if you want to enforce circle around the image too */
+}
+
 
 
 
