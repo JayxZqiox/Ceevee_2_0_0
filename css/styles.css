@@ -4072,6 +4072,15 @@ input[type="button"].btn--primary:focus {
     align-items: center;
     justify-content: center;
 }
+.folio-item__thumb img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white; /* optional */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* optional */
+}
+
 
 
 
