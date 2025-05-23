@@ -4055,7 +4055,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .folio-item__thumb {
-    background-color: #e0e0e0 ; /* soft light gray */
+    background-color: #f0f0f0 ; /* soft light gray */
     /* other styles you already have */
     width: 100%;
     aspect-ratio: 1 / 1;
